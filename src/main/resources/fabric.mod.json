@@ -29,10 +29,11 @@
 		"mixins.${id}.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.15.0",
+		"fabricloader": ">=0.16.10",
 		"minecraft": "${mc}",
 		"fabric-api": "*",
-		"necronomicon": ">=1.6.0"
+		"necronomicon": ">=1.6.0",
+		"fancymenu": ">=3.3.0"
 	},
 	"accessWidener": "${id}.accesswidener"
 }

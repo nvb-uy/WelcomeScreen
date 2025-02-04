@@ -4,6 +4,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import elocindev.welcomescreen.config.Configs;
+import elocindev.welcomescreen.fancymenu.CustomGUIResolver;
 //? if fabric {
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.ModInitializer;
@@ -60,6 +61,7 @@ implements ModInitializer, ClientModInitializer
     //?}
     public void onInitialize() {
         Configs.loadCommonConfigs();
+        CustomGUIResolver.load();
     }
 
     //? if fabric {
